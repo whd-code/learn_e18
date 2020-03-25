@@ -1,0 +1,97 @@
+:root {
+  font-size: calc(100vw/750);
+}
+body {
+  background-color: #EDEDED;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 120rem;
+  align-items: center;
+  font-size: 30rem;
+}
+header div {
+  margin: 0 20rem;
+}
+header div:first-child i:first-child {
+  margin-right: 25rem;
+}
+header div:last-child i:first-child {
+  margin-right: 40rem;
+}
+main {
+  background-color: white;
+  font-size: 30rem;
+}
+main ul li {
+  height: 135rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: solid 1rem #EDEDED;
+  margin-left: 25rem;
+}
+main ul li:last-child {
+  border-bottom: none;
+}
+main ul li div {
+  padding-right: 25rem;
+}
+main ul li div:first-child {
+  flex: 1;
+}
+main ul li:first-child div:last-child i:nth-child(1) {
+  position: relative;
+  left: 60rem;
+  background-color: white;
+  z-index: 4;
+  border-radius: 50%;
+}
+main ul li:first-child div:last-child i:nth-child(2) {
+  position: relative;
+  left: 40rem;
+  background-color: white;
+  z-index: 3;
+  border-radius: 50%;
+}
+main ul li:first-child div:last-child i:nth-child(3) {
+  position: relative;
+  left: 20rem;
+  background-color: white;
+  z-index: 2;
+  border-radius: 50%;
+}
+nav {
+  margin-top: 20rem;
+  background-color: white;
+}
+nav ul li {
+  margin-left: 25rem;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+nav ul li:first-child div {
+  font-size: 25rem ;
+  margin-left: 0rem;
+  height: 80rem;
+  padding-top: 20rem;
+}
+nav ul li div {
+  height: 135rem;
+  flex: 1;
+  font-size: 30rem;
+  border-bottom: solid 1rem #EDEDED;
+  display: flex;
+  align-items: center;
+  margin-left: 25rem;
+}
+nav ul li:last-child div {
+  border-bottom: none;
+}
+nav ul li .fa {
+  font-size: 60rem;
+  display: flex;
+  align-items: center;
+}
